@@ -2,6 +2,8 @@ package calculator.model;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import calculator.utils.DelimiterProcessor;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -65,5 +67,26 @@ class DelimiterProcessorTest {
         assertThat(result).contains("0");
     }
 
+    @Test
+    @DisplayName("유효하지 않은 기본 구분자 사용하면 예외가 발생한다.")
+    public void 유효하지_않은_기본_구분자_사용() {
+        //given
+        String userInput = "1,2,3,4::5";
+        String delimiter = ",:";
+
+        Assertions.assertThatThrownBy(() -> delimiterProcessor.splitByDelimiter(userInput, delimiter))
+                .isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    @DisplayName("유효하지 않은 커스텀 구분자 사용하면 예외가 발생한다.")
+    public void 유효하지_않은_커스텀_구분자_사용() {
+        //given
+        String userInput = "//&\\n1&2&&3,4:5";
+        String delimiter = "&,:";
+
+        Assertions.assertThatThrownBy(() -> delimiterProcessor.splitByDelimiter(userInput, delimiter))
+                .isInstanceOf(IllegalArgumentException.class);
+    }
 
 }
