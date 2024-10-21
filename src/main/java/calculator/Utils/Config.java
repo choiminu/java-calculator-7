@@ -2,7 +2,7 @@ package calculator.Utils;
 
 import calculator.controller.CalculatorController;
 import calculator.model.Calculator;
-import calculator.model.DelimiterExtractor;
+import calculator.Utils.extractor.DelimiterExtractor;
 import calculator.model.DelimiterProcessor;
 import calculator.model.NumberParser;
 import calculator.view.InputView;

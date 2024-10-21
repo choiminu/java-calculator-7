@@ -1,4 +1,4 @@
-package calculator.model;
+package calculator.Utils.extractor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
