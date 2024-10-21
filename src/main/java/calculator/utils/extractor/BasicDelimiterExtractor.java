@@ -1,5 +1,4 @@
 package calculator.utils.extractor;
-
 import static calculator.utils.Constants.COLON;
 import static calculator.utils.Constants.COMMA;
 import java.util.List;

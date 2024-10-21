@@ -1,6 +1,5 @@
-package calculator.model;
+package calculator.utils;
 
-import calculator.Utils.NumberValidator;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package calculator.Utils;
+package calculator.utils;
 
-public abstract class DelimiterConstants {
+public abstract class Constants {
     public static final char COMMA = ',';
     public static final char COLON = ':';
     public static final String CUSTOM_DELIMITER_PREFIX = "//";
@@ -10,4 +10,5 @@ public abstract class DelimiterConstants {
     public static final String DELIMITER_PATTERN_PREFIX = "[";
     public static final String DELIMITER_PATTERN_SUFFIX = "]";
     public static final String EMPTY = "";
+    public static final String EXCEPTION_MESSAGE = "잘못 입력하였습니다.";
 }

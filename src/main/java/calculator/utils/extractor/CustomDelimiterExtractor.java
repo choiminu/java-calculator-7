@@ -1,5 +1,4 @@
 package calculator.utils.extractor;
-
 import static calculator.utils.Constants.CUSTOM_DELIMITER_PREFIX;
 import static calculator.utils.Constants.CUSTOM_DELIMITER_PREFIX_LENGTH;
 import static calculator.utils.Constants.CUSTOM_DELIMITER_SUFFIX;

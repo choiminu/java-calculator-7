@@ -1,12 +1,12 @@
 package calculator.model;
 
-import static calculator.Utils.DelimiterConstants.COLON;
-import static calculator.Utils.DelimiterConstants.COMMA;
-import static calculator.Utils.DelimiterConstants.CUSTOM_DELIMITER_PREFIX;
-import static calculator.Utils.DelimiterConstants.CUSTOM_DELIMITER_SUFFIX;
-import static calculator.Utils.DelimiterConstants.DELIMITER_PATTERN_PREFIX;
-import static calculator.Utils.DelimiterConstants.DELIMITER_PATTERN_SUFFIX;
-import static calculator.Utils.DelimiterConstants.EMPTY;
+import static calculator.utils.Constants.COLON;
+import static calculator.utils.Constants.COMMA;
+import static calculator.utils.Constants.CUSTOM_DELIMITER_PREFIX;
+import static calculator.utils.Constants.CUSTOM_DELIMITER_SUFFIX;
+import static calculator.utils.Constants.DELIMITER_PATTERN_PREFIX;
+import static calculator.utils.Constants.DELIMITER_PATTERN_SUFFIX;
+import static calculator.utils.Constants.EMPTY;
 
 import java.util.Arrays;
 
