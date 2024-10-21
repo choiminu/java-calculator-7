@@ -1,4 +1,4 @@
-package calculator.utils;
+package calculator.utils.validator;
 
 public class InputValidator {
 
